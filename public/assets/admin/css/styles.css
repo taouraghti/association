@@ -1,0 +1,169 @@
+
+/*   Start Main Rules*/
+body
+{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+h1 {
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass
+{
+    position: absolute;
+    right: -15px;
+    top: 10px;
+}
+
+.etoile
+{
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    color: #d84747;
+}
+
+.is-inv
+{
+    border-color: #dc3545;
+}
+
+
+/*   End Main Rules*/
+
+/*   Start  Login form   */
+
+.login
+{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4
+{
+    color: #888;
+}
+.login input
+{
+    margin-bottom: 10px;
+}
+.login .form-control
+{
+    background-color: #EAEAEA;
+}
+.login .btn
+{
+    background-color: #008dde;
+}
+
+
+/*   End Login form   */
+
+/*  Start Dashboard Edit  */
+
+.home-stats .stat
+{
+    background-color: #EEE;
+    color: #FFF;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-stats .stat i
+{
+    position: absolute;
+    font-size: 80px;
+    left: 20px;
+    top: 25px;
+}
+
+.home-stats .stat .info
+{
+    float: right;
+}
+
+.home-stats .stat a
+{
+    color: #FFF;
+}
+.home-stats .stat a:hover
+{
+    text-decoration: none;
+}
+.home-stats .st-members
+{
+    background-color: #0984e3;
+}
+.home-stats .st-pending
+{
+    background-color: #d63031;
+}
+
+.home-stats .st-post
+{
+    background-color: #00b894;
+}
+
+.home-stats .stat span
+{
+    display: block;
+    font-size: 50px;
+}
+
+.latest
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.latest-users
+{
+    margin-bottom: 0px;
+}
+
+.latest .toggle-info
+{
+    color: #999;
+    cursor: pointer;
+}
+
+.latest .toggle-info:hover
+{
+    color: #333;
+}
+
+.latest-users .btn-outline-primary,
+.latest-users .btn-outline-success
+{
+    padding: 3px 8px;
+}
+
+.latest-users .btn-outline-success
+{
+    margin-right: 5px;
+}
+
+.latest-users li
+{
+    padding: 5px;
+    overflow: hidden;
+}
+.latest-users li:nth-child(odd)
+{
+    background-color: #EEE;
+}
+.latest-users li a:hover
+{
+    text-decoration: none;
+}
+
+
+/*  End Dashboard Edit  */

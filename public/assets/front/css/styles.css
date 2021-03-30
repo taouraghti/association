@@ -1,0 +1,334 @@
+
+/*   Start Main Rules*/
+body
+{
+    font-size: 16px;
+
+}
+
+li
+{
+    list-style: none;
+}
+h1
+{
+    font-size: 55px;
+    font-weight: bold;
+    color: #666;
+}
+
+h3
+{
+    color: #08526d;
+    margin-bottom: 30px;
+}
+
+.show-pass
+{
+    position: absolute;
+    right: -15px;
+    top: 10px;
+}
+
+.etoile
+{
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    color: #d84747;
+}
+
+/*   End Main Rules*/
+
+
+/*  Start Bootstrap Edit   */
+
+
+.form-group .col-sm-2
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.dropdown-menu
+{
+    /*background-color: #009fc2;*/
+    padding: 0;
+    border: none;
+    border: 1px solid rgba(0,0,0,.2);
+    margin-top: 0;
+}
+
+.dropdown-item
+{
+    color: #000;
+    font-size: 16px;
+
+}
+
+/*  End Bootstrap Edit   */
+
+/*  Start Header  */
+
+
+.upper-bar
+{
+    background-color: #08526d;
+    color:#fff;
+    padding: 10px;
+}
+
+.res-soc a
+{
+    color: #fff;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.navbar
+{
+    padding: 15px;
+}
+.nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #08526d !important;
+}
+
+.nav-link:hover
+{
+    color: #ec1c23 !important;
+}
+
+/*  End Header   */
+
+/*   Start slider   */
+
+.slider .carousel-item
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-one
+{
+    background-image: url('../images/slider/slide1.jpg');
+}
+
+.slider .carousel-two
+{
+    background-image: url('../images/slider/slide2.jpg');
+}
+
+.slider .carousel-three
+{
+    background-image: url('../images/slider/slide3.jpg');
+}
+
+
+/*   End slider     */
+
+/*    Start activité   */
+
+.activite
+{
+    padding: 50px 0;
+}
+
+.activite i
+{
+    background-color: #ec1c23;
+    color: #FFF;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.activite h3
+{
+    font-size: 24px;
+    color: #08526d;
+}
+
+.activite p
+{
+    color: #989898;
+}
+
+/*     End activité    */
+
+
+/* Start Login page */
+
+.selected form
+{
+    padding: 20px 30px;
+    width: 350px;
+    margin: 100px auto 10px auto;
+    background-color: #FFF;
+    border: 1px solid #c7c3c3;
+    border-radius: 5px;
+}
+
+.selected form h1
+{
+    color: #000;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 30px;
+}
+.selected form .btn
+{
+    background-color: #08526d;
+    border: 1px solid #08526d;
+
+}
+.selected form input
+{
+    width: 100%;
+    padding: 5px;
+}
+.selected .log-reg
+{
+    padding: 20px 30px;
+    width: 350px;
+    background-color: #FFF;
+    margin: 10px auto;
+    border: 1px solid #c7c3c3;
+    border-radius: 5px;
+}
+
+
+/*    End Login Page   */
+
+/*    Start Latest images    */
+
+.latest-images
+{
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.latest-images ul li
+{
+    color: #08526d;
+    border: 2px solid #08526d;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.latest-images ul li.active,
+.latest-images ul li:hover
+{
+    color: #FFF;
+    background-color: #ec1c23;
+    border: 2px solid #ec1c23;
+    cursor: pointer;
+}
+
+.latest-images ul li:hover
+{
+    transition: 0.5s all;
+}
+
+.row .col-sm
+{
+    padding: 0;
+    transition: 1s all;
+
+}
+
+.row .col-sm img
+{
+    width: 99%;
+    height: 98.5%;
+}
+/*    End Latest images     */
+
+/*     Start Join-us        */
+
+.join-us
+{
+    padding: 50px 0;
+    background-color: #ec1c23;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.join-us a
+{
+    text-transform: uppercase;
+    color: #FFF;
+    border: 2px solid #fff;
+    padding: 6px 20px 8px;
+    text-decoration: none;
+}
+
+
+/*     End Join-us        */
+
+
+
+/*    Start Footer          */
+
+.about-us
+{
+    padding: 100px 0 50px 0;
+}
+
+.about-us .row .col-md-4
+{
+    margin-bottom: 15px;
+}
+.about-us p
+{
+    line-height: 1.8;
+}
+
+.about-us a
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.about-us .fa-chevron-right
+{
+    margin-right: 5px;
+    color: #08526d;
+}
+
+.about-us .contactez-nous
+{
+    line-height: 2;
+}
+
+.about-us li
+{
+    line-height: 2;
+}
+/*    End Footer          */
+
+/*    Start Copyright     */
+
+.copyright
+{
+    padding: 20px;
+    border-top: 1px solid #c0c0c0;
+}
+.copyright ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.copyright ul li a
+{
+    color: #777;
+    font-size: 18px;
+}
+/*     End Copyright      */
